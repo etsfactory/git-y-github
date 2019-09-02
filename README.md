@@ -9,8 +9,7 @@
 <li><a href="#orgheadline3">Comprobación de claves</a></li>
 <li><a href="#orgheadline6">Generar claves ssh</a>
 <ul>
-<li><a href="#orgheadline4">Copia de clave con método <code>pbcopy</code></a></li>
-<li><a href="#orgheadline5">Copia de clave con <code>more</code> y copiar y pegar</a></li>
+<li><a href="#orgheadline5">Copia de clave</a></li>
 </ul>
 </li>
 <li><a href="#orgheadline7">Configuración local y comprobación</a></li>
