@@ -155,7 +155,7 @@ Si todo va bien, mostrará el mensaje de generación de la clave, pedirá dónde
 
 Ahora que ya tenemos la clave, la pegamos en GitHub en las preferencias, en el apartado "SSH and GPG keys".
 
-### Copia de clave
+### Copia de clave<a id="orgheadline5"></a>
 
 1. abrir carpeta `~/.ssh/`
 1. editar con un editor de texto (notepad++) el fichero `id_rsa.pub`, copiar todo el contenido.
