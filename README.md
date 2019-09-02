@@ -156,24 +156,10 @@ Si todo va bien, mostrará el mensaje de generación de la clave, pedirá dónde
 
 Ahora que ya tenemos la clave, la pegamos en GitHub en las preferencias, en el apartado "SSH and GPG keys".
 
-### Copia de clave con método `pbcopy`<a id="orgheadline4"></a>
+### Copia de clave
 
-Para seleccionar la clave, podemos emplear el método MacOSX `pbcopy`, que podemos hackear en GNU/Linux con un *alias* a partir de `xsel`:
-
-    alias pbcopy='xsel --clipboard --input'
-    alias pbpaste='xsel --clipboard --output'
-
-De esta forma ya podemos utilizar `pbcopy`:
-
-    pbcopy < ~/.ssh/id_rsa.pub
-
-Y pegamos en GitHub. A partir de ahí ya podremos conectarnos con GitHub de forma segura.
-
-### Copia de clave con `more` y copiar y pegar<a id="orgheadline5"></a>
-
-Podemos hacerlo en dos pasos, mostrando la clave y copiándola con el ratón:
-
-    more ~/.ssh/id_rsa.pub
+1. abrir carpeta `~/.ssh/`
+1. editar con un editor de texto (notepad++) el fichero `id_rsa.pub`, copiar todo el contenido.
 
 ## Configuración local y comprobación<a id="orgheadline7"></a>
 
